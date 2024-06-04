@@ -1,0 +1,12 @@
+
+```javascript
+// membuat efek animasi pada kado
+const gift = document.querySelector(".gift img");
+gift.addEventListener("mouseover", function () {
+  this.style.transform = "rotate(10deg)";
+  this.style.transition = "transform 0.5s ease";
+});
+gift.addEventListener("mouseout", function () {
+  this.style.transform = "rotate(0deg)";
+  this.style.transition = "transform 0.5s ease";
+});

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ulang Tahunmu yang Romantis</title>
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    /* CSS untuk body dan header */
+    body {
+      background-color: #f9e6ea;
+      font-family: "Arial", sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #ff7f7f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 60px;
+      letter-spacing: 5px;
+    }
+    
+    /* CSS untuk gambar ulang tahun */
+    .cake {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+    
+    .balloon {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+    
+    .gift {
+      position: absolute;
+      top: 70%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      animation: bounce 2s infinite;
+    }
+    
+    @keyframes bounce {
+      0% {
+        transform: translate(-50%, -50%) translateY(0);
+      }
+      50% {
+        transform: translate(-50%, -50%) translateY(-20px);
+      }
+      100% {
+        transform: translate(-50%, -50%) translateY(0);
+      }
+    }
+    
+    /* CSS untuk footer */
+    footer {
+      background-color: #ff7f7f;
+      color: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    /* CSS untuk form */
+    form {
+      margin-top: 20px;
+    }
+    
+    form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    form textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      resize: none;
+      font-size: 16px;
+    }
+    
+    form input[type="submit"] {
+      background-color: #ff7f7f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    form input[type="submit"]:hover {
+      background-color: #ff1f1f;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>SELAMAT ULANG TAHUN SAYANGKU</header>
+  
+  <!-- Gambar ulang tahun -->
+  <img src="1.jpg" class="cake" width="300" height="300">
+  <img src="1.jpg" class="balloon" width="200" height="200">
+  <img src="1.jpg" class="gift" width="100" height="100">
+  
+    <div class="container">
+      <h2>Kami sudah bersama selama</h2>
+      <p>Isi pesan Anda di sini</p>
+      <!-- Form untuk mengirim pesan -->
+<form action="" method="post">
+    <label for="name">Nama:</label>
+    <input type="text" name="name" id="name" required>
+    
+    <label for="message">Pesan:</label>
+    <textarea name="message" id="message" required></textarea>
+    
+    <input type="submit" value="Kirim">
+  </form>
+</div>
+<footer>Terima kasih telah membuat hidupku lebih berarti. Semoga kamu selalu bahagia dan sehat. Aku mencintaimu selamanya.</footer>
+</body>
+</html>  
